@@ -27,7 +27,7 @@ function bringheadindicate() {
     greeting.style.opacity = 1;
     desc.style.opacity = 1;
     indicator.style.opacity = 1;
-    setTimeout(bringFloating, 1000);
+    setTimeout(bringFloating, 2000);
 }
 
 function bringFloating() {
