@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+
+
+
+.chatbox-button button,
+.chatbox-button button:focus,
+.chatbox-button button:visited{
+
+    padding: 10px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    background: linear-gradient(123.75deg, #F5821F 1.87%, #FF5C00 120.46%);
+}
+
+
+
+
+

@@ -1,0 +1,35 @@
+
+.chatbox {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+/* .chatbox-support{
+     display: flex;
+    flex-direction: column;
+    background: #eee;
+    z-index: -123456;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+} */
+
+/* chatbox open */
+/* .chatbox--active{
+    transform: translateY(-40px);
+    z-index: 123456;
+    opacity: 1;
+    
+} */
+
+.chatbox-button {
+    text-align: right;
+    cursor: pointer;
+}
+
+@media(max-width:425px){
+    
+    .chatbox{
+        right: 20px;
+        bottom: 20px;
+    }
+}
