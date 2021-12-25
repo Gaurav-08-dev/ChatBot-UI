@@ -33,11 +33,29 @@ iframe{
     opacity: 1;
 }
 
-
-@media(max-width:425px){
+@media (max-width:375px){
+    
+    .iframe-support{
+        width: 291px;
+        height: 480px;
+    }
+    .iframe--active{
+        transform: translateY(-10px);
+        z-index: 123456;
+        opacity: 1;
+    }
+}
+@media(min-width:425px)and (max-width: 400px){
     
     .iframe-support{
         width: 350px;
         height: 600px;   
+    }
+}
+
+@media (min-width:414px) and (max-width:520px){
+    .iframe-support{
+        width: 291px;  
+        height: 480px;
     }
 }

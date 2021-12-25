@@ -26,7 +26,14 @@
     cursor: pointer;
 }
 
-@media(max-width:425px){
+@media (max-width:375px){
+    
+        .chatbox{
+            right: 5px;
+            bottom: 5px;
+        }
+}
+@media(min-width:425px)and (max-width: 400px){
     
     .chatbox{
         right: 20px;
