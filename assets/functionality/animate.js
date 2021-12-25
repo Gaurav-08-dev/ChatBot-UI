@@ -64,5 +64,5 @@ function bringbutton() {
 }
 }
 
-animation();
+setInterval(animation(),5000);
 })
